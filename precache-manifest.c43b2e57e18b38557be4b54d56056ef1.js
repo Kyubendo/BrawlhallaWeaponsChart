@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38ce32c0b3ca11745c6cb0ef63d74c2b",
+    "revision": "69d70ef1c74f2ff758b7a73c2bb0dde6",
     "url": "/brawlhalla-weapons-chart/index.html"
   },
   {
-    "revision": "39904606e4671e32a1f5",
-    "url": "/brawlhalla-weapons-chart/static/css/main.8ddcf192.chunk.css"
+    "revision": "4b32b23b04f94fc8982b",
+    "url": "/brawlhalla-weapons-chart/static/css/main.eec4684f.chunk.css"
   },
   {
     "revision": "f04c52cac975cf5a770e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brawlhalla-weapons-chart/static/js/2.966b0322.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "39904606e4671e32a1f5",
-    "url": "/brawlhalla-weapons-chart/static/js/main.7ba2e690.chunk.js"
+    "revision": "4b32b23b04f94fc8982b",
+    "url": "/brawlhalla-weapons-chart/static/js/main.3d80006b.chunk.js"
   },
   {
     "revision": "0985c15127983db47cfb",

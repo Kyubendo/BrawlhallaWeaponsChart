@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/brawlhalla-weapons-chart/precache-manifest.57a02959bac1d7c481b6a6294b52b2ad.js"
+  "/brawlhalla-weapons-chart/precache-manifest.c43b2e57e18b38557be4b54d56056ef1.js"
 );
 
 self.addEventListener('message', (event) => {
