@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/brawlhalla-weapons-chart/static/css/main.8ddcf192.chunk.css",
+    "main.js": "/brawlhalla-weapons-chart/static/js/main.7ba2e690.chunk.js",
+    "main.js.map": "/brawlhalla-weapons-chart/static/js/main.7ba2e690.chunk.js.map",
+    "runtime-main.js": "/brawlhalla-weapons-chart/static/js/runtime-main.45dde74f.js",
+    "runtime-main.js.map": "/brawlhalla-weapons-chart/static/js/runtime-main.45dde74f.js.map",
+    "static/js/2.966b0322.chunk.js": "/brawlhalla-weapons-chart/static/js/2.966b0322.chunk.js",
+    "static/js/2.966b0322.chunk.js.map": "/brawlhalla-weapons-chart/static/js/2.966b0322.chunk.js.map",
+    "index.html": "/brawlhalla-weapons-chart/index.html",
+    "precache-manifest.57a02959bac1d7c481b6a6294b52b2ad.js": "/brawlhalla-weapons-chart/precache-manifest.57a02959bac1d7c481b6a6294b52b2ad.js",
+    "service-worker.js": "/brawlhalla-weapons-chart/service-worker.js",
+    "static/css/main.8ddcf192.chunk.css.map": "/brawlhalla-weapons-chart/static/css/main.8ddcf192.chunk.css.map",
+    "static/js/2.966b0322.chunk.js.LICENSE.txt": "/brawlhalla-weapons-chart/static/js/2.966b0322.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45dde74f.js",
+    "static/js/2.966b0322.chunk.js",
+    "static/css/main.8ddcf192.chunk.css",
+    "static/js/main.7ba2e690.chunk.js"
+  ]
+}
