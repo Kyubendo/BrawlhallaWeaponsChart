@@ -82,7 +82,7 @@ export const BrawlChart = () => {
                 <XAxis dataKey="name"/>
                 <YAxis tickCount={9} dataKey="winrate" type="number" domain={[47.4, 53.1]}/>
                 <CartesianGrid stroke="#445" strokeDasharray="6 10"/>
-                <Tooltip/>
+                <Tooltip contentStyle={{"background-color": "#11141d", "border-color": "#2d3040"}}/>
                 <Legend/>
 
                 {Object.keys(weaponData).map((weapon, i) =>
