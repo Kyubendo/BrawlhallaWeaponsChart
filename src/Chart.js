@@ -62,7 +62,7 @@ export const BrawlChart = () => {
 
     useEffect(() => {
         // uncomment to make request
-        //getData()
+        // getData()
     }, []);
 
     const data = [];
@@ -74,18 +74,19 @@ export const BrawlChart = () => {
         data.push(obj)
     }
     const colorsArr = ['#c2efda', '#eaff00', '#982fbc', '#4b28d3', '#2196f3', '#496b3c', '#00d1c2', '#4caf50',
-        '#684300', '#ff001c', '#ff4200', '#f7246c', '#990066', '#339933'];
+        '#684300', '#ff001c', '#ff4200', '#f767b0', '#990066', '#339933'];
     return (
         <div>
             <LineChart width={1900} height={900} data={data}
                        margin={{top: 5, right: 30, left: 20, bottom: 5}}>
                 <XAxis dataKey="name"/>
-                <YAxis type="number" domain={[47.4, 53.1]}/>
-                <CartesianGrid strokeDasharray="3 3"/>
+                <YAxis tickCount={9} dataKey="winrate" type="number" domain={[47.4, 53.1]}/>
+                <CartesianGrid stroke="#445" strokeDasharray="6 10"/>
                 <Tooltip/>
                 <Legend/>
+
                 {Object.keys(weaponData).map((weapon, i) =>
-                    (< Line type="monotone" dataKey={weapon}
+                    (<Line strokeWidth={2} type="monotone" dataKey={weapon}
                             stroke={colorsArr[i]}/>))}
 
             </LineChart>
